@@ -160,15 +160,6 @@ const TrackItem = styled.li`
   }
 `;
 
-// Removed MotionDiv variable
-// Removed SongCard styled-component
-// Removed SongImage styled-component
-// Removed SongInfo styled-component
-// Removed SongTitle styled-component (for individual songs)
-// Removed SongAlbum styled-component
-// Removed HomeContainer styled-component
-// Removed BgImage styled-component
-// Removed Overlay styled-component
 
 const SelectSongText = styled.div`
   font-family: 'Anton', sans-serif;
@@ -216,7 +207,7 @@ const Music = () => {
     {
       title: 'The Eminem Show',
       year: 2002,
-      cover: require('../resources/eminem-stage.jpg'),
+      cover: require('../resources/The_Eminem_Show.jpg'),
       tracks: [
         { title: 'Without Me', youtubeId: 'YVkUvmDQ3HY' },
         { title: "Cleanin' Out My Closet", youtubeId: 'RQ9_TKayu9s' },
@@ -243,7 +234,7 @@ const Music = () => {
     {
       title: 'Recovery',
       year: 2010,
-      cover: require('../resources/eminem-stage.jpg'),
+      cover: require('../resources/Recovery_Album_Cover.jpg'),
       tracks: [
         { title: 'Not Afraid', youtubeId: 'j5-yKhDd64s' },
         { title: 'Love the Way You Lie', youtubeId: 'uelHwf8o7_U' },
@@ -252,7 +243,7 @@ const Music = () => {
     {
       title: 'The Marshall Mathers LP 2',
       year: 2013,
-      cover: require('../resources/eminem-stage.jpg'),
+      cover: require('../resources/The_Marshall_Mathers_LP_2.jpg'),
       tracks: [
         { title: 'Rap God', youtubeId: 'XbGs_qK2PQA' },
         { title: 'The Monster', youtubeId: 'EHkozMIXZ8w' },
