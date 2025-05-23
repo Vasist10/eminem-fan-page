@@ -243,7 +243,7 @@ const Music = () => {
     {
       title: 'The Marshall Mathers LP 2',
       year: 2013,
-      cover: require('../resources/The_Marshall_Mathers_LP_2.jpg'),
+      cover: require('../resources/The_Marshall_Mathers_LP.jpg'),
       tracks: [
         { title: 'Rap God', youtubeId: 'XbGs_qK2PQA' },
         { title: 'The Monster', youtubeId: 'EHkozMIXZ8w' },
